@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Ashley Pope Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+  <!-- JavaScripts -->
+  <script type="text/javascript">
+    writeRandomQuote = function () {
+      var quotes = new Array();
+      quotes[0] = "Great things never come from comfort zones.";
+      quotes[1] = "Push yourself, because no one else is going to do it for you.";
+      quotes[2] = "The harder you work for something, the greater you'll feel when you achieve it.";
+      quotes[3] = "Dream Bigger";
+      var rand = Math.floor(Math.random()*quotes.length);
+      document.write(quotes[rand]);
+    }
+
+  </script>
+
+</head>
+
+<body>
+
+  <section class="colored-section" id="title">
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+  </section>
+
+  <!-- Footer -->
+
+  <footer class="white-section" id="footer">
+    <div class="container-fluid">
+        <h1>Meet Ashley</h1>
+        <img src="images/profile-image.png" alt="ashley" height="200px" width="200px">
+      <p></p>
+      <p>Innovative Developer with over 10 years of experience in software design, analysis, testing, and 
+          implementation of client-server applications. A highly skilled professional with a Bachelor of Science degree in Business Administration focused 
+          in Computer Information Systems. I enjoy being challenged and engaging in projects that require me to work outside of my comfort zone and knowledge set. 
+          I have been recognized for my creativity, attention to detail, and project management skills. </p>
+          
+          <p>My career has afforded me the luxury of developing my skill sets, allowing me to gain mastery over necessary development tools, 
+              and has provided me with extensive knowledge regarding user-friendly and functional design applications.
+      </p>
+      <br>
+      <p>
+      <h6>Inspirational Quote of the Day</h6>
+      <script type="text/javascript">writeRandomQuote();</script>
+      
+    </p>
+    </div>
+  </footer>
+
+  <!-- Features -->
+
+  <section class="white-section" id="features" style="background-image: url('images/art background.jpg');">
+    <div class="container-fluid">
+
+      <h3>Feel free to visit my sites!</h3>
+
+      <div class="row">
+        <div class="feature-box col-lg-3">
+           <a href="https://www.upwork.com/fl/ashleyp18"><i class="icons fas fa-briefcase"></i></a>
+          <h3 class="feature-title">Upwork</h3>
+        </div>
+
+        <div class="feature-box col-lg-3">
+            <a href="https://www.lightstock.com/users/ashley-3df2d58c-7759-4722-834c-bf6b70fcd66c"><i class="icons fas fa-camera"></i></a>
+          <h3 class="feature-title">Photography</h3>
+        </div>
+
+        <div class="feature-box col-lg-3">
+            <a href="https://github.com/ahlaj77?tab=repositories"><i class="icons fab fa-github"></i></a>
+          <h3 class="feature-title">GitHub</h3>
+        </div>
+
+        <div class="feature-box col-lg-3">
+            <a href="https://www.linkedin.com/in/ashleypope1/"><i class="icons fab fa-linkedin"></i></a>
+          <h3 class="feature-title">LinkedIn</h3>
+        </div>
+      </div>
+    </div>
+    
+
+  </section>
+
+</body>
+
+</html>
